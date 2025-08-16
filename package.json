@@ -5,8 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --mode production",
-    "build:ts": "tsc --noEmit && vite build",
+    "build": "vite build --force --mode production",
     "lint": "eslint .",
     "preview": "vite preview"
   },
